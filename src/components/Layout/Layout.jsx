@@ -12,7 +12,7 @@ const Layout = (props) => {
             </div>
             <button className={styles.btn_basket}/>
         </header>
-        <div>
+        <div className={styles.content_layout}>
             { props.children }
         </div>
     </div>
