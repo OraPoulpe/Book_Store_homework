@@ -1,0 +1,15 @@
+.book_layout{
+    width: 50%;
+}
+
+.annotation_layout {
+    width: 50%;
+    margin-left: 30px;
+
+}
+
+.firts_layout{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 40px;  
+}

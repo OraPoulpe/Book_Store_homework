@@ -1,0 +1,82 @@
+.book_layout{
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    width: 95%;
+    height: 70%;
+    padding: 20px;
+    margin-bottom:20px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_text_name{
+    font-family: 'Open Sans';    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.info_text_info{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.info_text_price{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.counter{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn_counter_plus{
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    color: white
+}
+
+.btn_counter_minus{
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    color: white
+}

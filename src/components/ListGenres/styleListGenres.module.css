@@ -1,0 +1,44 @@
+.listGenres{
+    background-color: white;
+    border-radius: 8px;
+    width: 285px;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 50px 20px;
+    /* margin-bottom: 0; */
+}
+
+.btn_genre_active{
+    border: none;
+    background-color: transparent;
+    margin-left: 20px; 
+    margin-top: 15px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+
+    color: #000000;
+}
+
+.btn_genre{
+    border: none;
+    background-color: transparent;
+    margin-left: 20px; 
+    margin-top: 15px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+
+    color: #000000;
+}

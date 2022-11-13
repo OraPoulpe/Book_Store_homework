@@ -1,0 +1,28 @@
+.annotation_layout{
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    height: 70%;
+    padding: 20px;
+
+}
+
+.name_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;    
+    
+    color: #000000;
+}
+
+.info_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    
+    color: #000000;
+}

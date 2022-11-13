@@ -1,0 +1,37 @@
+.review_layout{
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    width: 97%;
+    height: 30%;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.first_layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.info_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 10px;
+
+    color: #000000;
+}

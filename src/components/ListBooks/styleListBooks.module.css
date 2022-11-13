@@ -1,0 +1,22 @@
+.list_books_layout{
+    height: 83vh;
+    width: 90%;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 20px;
+    margin-top: 50px;
+}
+
+.list_books_layout::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .list_books_layout::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 100px;
+  }
+  
+  .list_books_layout::-webkit-scrollbar-thumb {
+    background-color: #2B3745;
+    border-radius: 100px;
+  }
