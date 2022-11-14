@@ -11,11 +11,11 @@ export function App(){
         <BrowserRouter>
             <Routes>
                 <Route index element={<MainPage genres={ mock }/>}/>
-                <Route path="/book" element={<BookPage book={mock[0].books[1]}/>}/>
-                <Route
+                <Route path="/Book_Store_homework/book" element={<BookPage book={mock[0].books[1]}/>}/>
+                {/* <Route
                 path="*"
                 element={<Navigate to="/" replace />}
-                />
+                /> */}
             </Routes>
         </BrowserRouter>
     </Layout>

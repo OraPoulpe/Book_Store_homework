@@ -46,6 +46,11 @@
     align-items: center;
     margin-right: 20px;
     text-decoration: none;
+    color: #6a6a6a;
+}
+
+.btn_book_page:visited{
+    text-decoration: none;
 }
 
 .nav_bar {
