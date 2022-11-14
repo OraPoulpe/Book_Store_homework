@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Book_Store_homework/static/css/main.e224ef00.css",
-    "main.js": "/Book_Store_homework/static/js/main.e2e5b32e.js",
+    "main.css": "/Book_Store_homework/static/css/main.e965832e.css",
+    "main.js": "/Book_Store_homework/static/js/main.5e640210.js",
     "static/media/OpenSans-Regular.ttf": "/Book_Store_homework/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
     "index.html": "/Book_Store_homework/index.html",
-    "main.e224ef00.css.map": "/Book_Store_homework/static/css/main.e224ef00.css.map",
-    "main.e2e5b32e.js.map": "/Book_Store_homework/static/js/main.e2e5b32e.js.map"
+    "main.e965832e.css.map": "/Book_Store_homework/static/css/main.e965832e.css.map",
+    "main.5e640210.js.map": "/Book_Store_homework/static/js/main.5e640210.js.map"
   },
   "entrypoints": [
-    "static/css/main.e224ef00.css",
-    "static/js/main.e2e5b32e.js"
+    "static/css/main.e965832e.css",
+    "static/js/main.5e640210.js"
   ]
 }
