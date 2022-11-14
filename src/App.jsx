@@ -10,7 +10,7 @@ export function App(){
     return <Layout>
         <BrowserRouter>
             <Routes>
-                <Route index element={<MainPage genres={ mock }/>}/>
+                <Route path="/Book_Store_homework" element={<MainPage genres={ mock }/>}/>
                 <Route path="/Book_Store_homework/book" element={<BookPage book={mock[0].books[1]}/>}/>
                 {/* <Route
                 path="*"
