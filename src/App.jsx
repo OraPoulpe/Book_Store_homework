@@ -10,8 +10,8 @@ export function App(){
     return <Layout>
         <BrowserRouter>
             <Routes>
-                <Route path="/Book_Store_homework" element={<MainPage genres={ mock }/>}/>
-                <Route path="/Book_Store_homework/book" element={<BookPage book={mock[0].books[1]}/>}/>
+                <Route path="/home" element={<MainPage genres={ mock }/>}/>
+                <Route path="/book" element={<BookPage book={mock[0].books[1]}/>}/>
                 {/* <Route
                 path="*"
                 element={<Navigate to="/" replace />}
