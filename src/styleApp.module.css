@@ -1,0 +1,45 @@
+.header{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.store_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.nav_bar {
+    display:flex;
+}
+
+.btn_book_page{
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;   
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #6a6a6a;
+}
+
+.btn_basket{
+    background-image: url('./img/basket.png');
+    background-color: transparent;
+    contain: content;
+    width: 25px;
+    height: 25px;
+}
