@@ -1,13 +1,16 @@
 import Layout from "./components/Layout/Layout";
 import { MainPage } from "./pages/MainPage/MainPage";
-import { mock } from "./constants/mock";
 import BookPage from "./pages/BookPage/BookPage";
 import { Link, Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 
+import {Provider} from "react-redux";
+
 import styles from "./styleApp.module.css"
+import { store } from "./store";
 
 export function App() {
   return (
+    <Provider store={store}>
     <Layout>
       <BrowserRouter>
         <header className={styles.header}>
@@ -25,7 +28,7 @@ export function App() {
         <Routes>
           <Route
             path="/Book_Store_homework"
-            element={<MainPage genres={mock} />}
+            element={<MainPage />}
           />
           <Route
             path="/Book_Store_homework/book"
@@ -38,5 +41,6 @@ export function App() {
         </Routes>
       </BrowserRouter>
     </Layout>
+    </Provider>
   );
 }
